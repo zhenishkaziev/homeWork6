@@ -13,6 +13,9 @@ public class Boss extends GameEnity {
         this.join = join;
 
     }
+    public String printInfo(){
+        return "Жизнь 500" +" " +  "Урон 60";
+    }
 
 }
 
