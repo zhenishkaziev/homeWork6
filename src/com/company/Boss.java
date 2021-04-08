@@ -1,7 +1,10 @@
 package com.company;
 
 public class Boss extends GameEnity {
+
      Weapon join;
+
+
 
     public Weapon getJoin() {
         return join;
@@ -10,10 +13,7 @@ public class Boss extends GameEnity {
     public void setJoin(Weapon join) {
         this.join = join;
 
+    }
 
     }
 
-
-
-
-}

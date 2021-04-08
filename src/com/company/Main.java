@@ -4,18 +4,15 @@ import java.io.OutputStream;
 
 public class Main {
 
+
     public static void main(String[] args) {
+
         Boss you = new Boss();
         you.setLife(500);
         you.setDamage(60);
-        Weapon join = new Weapon();
-        join.setWeaponName("SteelArms");
-        join.setWeaponType("NightHunter");
-        System.out.println("Жизнь босса " + " " + you.getLife()+ " " +"Урон босса " + you.getDamage() + " "
-                + "Название оружие " + " " + join.getWeaponName() + " " +  "Тип оружия" + " " + join.getWeaponType());
-
-
-
+        you.setJoin(new Weapon("SteelArms", "NightHunter"));
+        System.out.println("Lif of Boss: " + you.getLife() + " " + "Damage of Boss: " + " " + you.getDamage() + " " + "Weapon type: " + " "
+        + you.join.getWeaponType() + " " + "Weapon name: " + " " + you.join.getWeaponName());
 
 
 
